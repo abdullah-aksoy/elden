@@ -3,12 +3,13 @@
 ## Demo
 
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/e217e773-9674-4d5e-b203-9457ca0cb585" width="600"></video>
+</div>
 
-https://github.com/user-attachments/assets/93e7a580-af42-4601-9b34-61d96ed24fe1
-
-
-
-https://github.com/user-attachments/assets/52ffc8a0-0e3b-446e-8e58-1d4e224fe59f
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/652d2a2d-1809-41c0-a806-c4b2acbc5b84" width="600"></video>
+</div>
 
 
 
