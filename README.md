@@ -2,17 +2,9 @@
 
 ## Demo
 
-Videolar repoda [`assets/`](assets/) altında: **`demo.mp4`** ve **`demo-2.mp4`**. GitHub’da README oynatıcısı aşağıdaki ham dosya adresleriyle çalışır ([`abdullah-aksoy/elden`](https://github.com/abdullah-aksoy/elden)). Ayrıntı: [`assets/README.md`](assets/README.md).
-
-**Demo 1**
-
 <video src="https://github.com/abdullah-aksoy/elden/raw/main/assets/demo.mp4" controls muted playsinline width="100%" style="max-width: 420px"></video>
 
-**Demo 2**
-
 <video src="https://github.com/abdullah-aksoy/elden/raw/main/assets/demo-2.mp4" controls muted playsinline width="100%" style="max-width: 420px"></video>
-
-**Harici barındırma:** YouTube / Loom kullanacaksanız yukarıdaki `<video>` bloklarını kaldırıp doğrudan bağlantı verebilirsiniz.
 
 ---
 
