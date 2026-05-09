@@ -3,9 +3,14 @@
 ## Demo
 
 
-**[Demo 1 — izle](https://github.com/abdullah-aksoy/elden/blob/main/assets/demo.mp4)** · **[Demo 2 — izle](https://github.com/abdullah-aksoy/elden/blob/main/assets/demo-2.mp4)**
 
-Repoda dosya yolları: [`assets/demo.mp4`](assets/demo.mp4), [`assets/demo-2.mp4`](assets/demo-2.mp4).
+https://github.com/user-attachments/assets/93e7a580-af42-4601-9b34-61d96ed24fe1
+
+
+
+https://github.com/user-attachments/assets/52ffc8a0-0e3b-446e-8e58-1d4e224fe59f
+
+
 
 ---
 
