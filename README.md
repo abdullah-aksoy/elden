@@ -2,9 +2,10 @@
 
 ## Demo
 
-<video src="https://github.com/abdullah-aksoy/elden/raw/main/assets/demo.mp4" controls muted playsinline width="100%" style="max-width: 420px"></video>
 
-<video src="https://github.com/abdullah-aksoy/elden/raw/main/assets/demo-2.mp4" controls muted playsinline width="100%" style="max-width: 420px"></video>
+**[Demo 1 — izle](https://github.com/abdullah-aksoy/elden/blob/main/assets/demo.mp4)** · **[Demo 2 — izle](https://github.com/abdullah-aksoy/elden/blob/main/assets/demo-2.mp4)**
+
+Repoda dosya yolları: [`assets/demo.mp4`](assets/demo.mp4), [`assets/demo-2.mp4`](assets/demo-2.mp4).
 
 ---
 
