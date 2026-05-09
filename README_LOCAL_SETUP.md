@@ -4,7 +4,7 @@ Bu dosya **yalnızca geliştirme makinesinde kurulum ve sorun giderme** içindir
 
 | Ne arıyorsunuz? | Nereye bakın? |
 |-----------------|----------------|
-| Proje nedir, hangi özellikler var, mobil mi web mi, API özeti, güvenlik | **[README.md](README.md)** (ana giriş) |
+| Proje nedir, hangi özellikler var, mobil mi web mi, API özeti, güvenlik, GitHub’daki demo videolar | **[README.md](README.md)** (ana giriş) |
 | İlk kurulum, `mongosh`, port, Expo + cihaz IP, hata mesajları | **Bu dosya** (`README_LOCAL_SETUP.md`) |
 
 ---
