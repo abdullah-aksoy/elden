@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "Elden",
+    "description": "İkinci el alım satım platformu — komşunuzdan güvenle alın, satın.",
+    "slug": "ikinci-el",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/elden-logo.png",
+    "scheme": "ikinciel",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "icon": "./assets/images/elden-logo.png",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Ürün fotoğraflarını yüklemek için galeri erişimi gerekli",
+        "NSCameraUsageDescription": "Ürün fotoğrafları çekmek için kamera erişimi gerekli",
+        "NSLocationWhenInUseUsageDescription": "Konum bazlı arama için konum erişimi gerekli"
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/elden-logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.aaksoyyyy.ikinciel"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/elden-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/elden-logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Ürün fotoğraflarını yüklemek için galeri erişimi gerekli",
+          "cameraPermission": "Ürün fotoğrafları çekmek için kamera erişimi gerekli"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Konum bazlı arama için konum erişimi gerekli"
+        }
+      ],
+      "expo-secure-store",
+      "./plugins/withAndroidKotlinPackage.js"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b676ccf1-98f0-4682-8e45-ab73ab7c5944"
+      }
+    }
+  }
+}

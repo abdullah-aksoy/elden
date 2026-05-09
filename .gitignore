@@ -1,0 +1,113 @@
+# --- Ortam / gizli (örnek dosyalar repoda kalsın) ---
+.env
+.env.local
+.env.*.local
+# .env.production, .env.backup vb. yanlışlıkla commit edilmesin
+.env.*
+!.env.example
+!**/.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.nox/
+
+# --- Node / JS ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+*.tsbuildinfo
+
+# --- Expo / React Native ---
+.expo/
+.expo-shared/
+dist/
+web-build/
+.metro-health-check*
+**/.metro-cache/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# EAS (yerel credential dosyası oluşursa)
+credentials.json
+*.keystore
+!debug.keystore
+
+# expo prebuild ile oluşan native proje (commit etmiyorsanız)
+# android/ ve ios/ repoda tutacaksanız bu iki satırı kaldırın.
+android/
+ios/
+
+# --- IDE / editör ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Log / geçici ---
+logs/
+*.log
+*.bak
+*.tmp
+.cache/
+
+# --- Veritabanı (yerel) ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Mobil derleme çıktıları ---
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+
+# --- Test ---
+coverage/
+.nyc_output/
